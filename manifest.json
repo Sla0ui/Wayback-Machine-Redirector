@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Wayback Machine Redirector",
+  "description": "Adds a link to open search result pages in the Wayback Machine.",
+  "version": "1.0",
+  "permissions": ["https://archive.org/*", "notifications"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "manifest_version": 2
+}
