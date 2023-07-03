@@ -1,7 +1,6 @@
 # Welcome to Wayback Machine Redirector - Beta Version! 🚀
 
 ![Wayback Machine Redirector Logo](https://github.com/Sla0ui/Wayback-Machine-Redirector/assets/136838832/2fa8dc17-7422-43c5-8e68-bd8a86ca15bc)
-)
 
 ### What's Wayback Machine Redirector?
 
